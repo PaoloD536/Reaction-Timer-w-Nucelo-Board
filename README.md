@@ -1,2 +1,2 @@
 # Reaction-Timer-w-Nucelo-Board
-This program allows users to test their reaction using a STM32 Nucleo Board microcontroller. 
+This program allows users to test their reaction. The program was made using MBed Studio and a STM32 Nucleo Board. The button on the microcontroller and light are used for this project, no other hardware is needed. When the program starts, a timer is set at a random time, between 1 - 10 seconds. Once it ends, the light on the microcontroller will light up and the user has to press the button as fast as possible. Once the button is pressed, the time between when the light turns on and when the button is pressed will be displayed in the terminal.
